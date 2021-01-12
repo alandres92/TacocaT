@@ -25,6 +25,6 @@ document.getElementById("btnTC").addEventListener("click", function(){
         wordElement.value = "It's a Palindrome!";
       }
       else {
-        wordElement.value = "Sorry... It is <i>Not</i> a Palindrome!";
+        wordElement.value = "Sorry... It is NOT a Palindrome!";
       }
     });
