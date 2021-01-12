@@ -1,5 +1,6 @@
-
-    document.getElementById("btnTC").addEventListener("click", function(){
+document.getElementById("btnTC").addEventListener("click", function(){
+       
+    
       // Get our word element 
       let wordElement = document.getElementById("palTestBox");
       
