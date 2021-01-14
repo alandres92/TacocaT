@@ -1,4 +1,4 @@
-document.getElementById("btnTC").addEventListener("click", function(){
+function TacocaT(){
        
     
       // Get our word element 
@@ -27,4 +27,12 @@ document.getElementById("btnTC").addEventListener("click", function(){
       else {
         wordElement.value = "Sorry... It is NOT a Palindrome!";
       }
-    });
+      return results
+    };
+
+
+    
+    //  let arr = ['foo', 'racecar', 'pineapple', 'porcupine', 'tacocat']
+
+    //  let palindromes = arr.filter(word => word.split('').reverse().join('') === word)
+    //      }
