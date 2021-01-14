@@ -1,11 +1,12 @@
 function TacocaT(){
-       
-    
+
+
       // Get our word element 
       let wordElement = document.getElementById("palTestBox");
       
       // From that, get our word from the element
       let wordCheck = wordElement.value;
+      wordCheck = wordCheck.replace(/[^a-z0-9]/gi, '');
       
       // Reverse that word so we can do our palindrome test
       let reverseWord = wordCheck.split('').reverse().join('');
