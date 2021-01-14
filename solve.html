@@ -1,18 +1,18 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>SoaF Solve</title>
+    <title>TacocaT Solve</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/css/soaf.css">
+    <link rel="stylesheet" type="text/css" href="/css/tc.css">
   </head>
   <body>
       <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #ff993b;">
-          <a class="navbar-brand" href="#">S.O.A.F.</a>
+          <a class="navbar-brand" href="#">TacocaT</a>
           <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
               aria-expanded="false" aria-label="Toggle navigation"></button>
           <div class="collapse navbar-collapse" id="collapsibleNavId">
@@ -27,7 +27,7 @@
                     <a class="nav-link" href="code.html">Code</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  href="https://github.com/alandres92/FizzBuzz" target="_blank" >GitHub</a>
+                        <a class="nav-link"  href="https://github.com/alandres92/tacocat" target="_blank" >GitHub</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://aldens-devfolio.netlify.app/" target="_blank">Portfolio</a>
@@ -38,37 +38,51 @@
                 
             </div>
         </nav>
+        <!-- this is where I lay out the UI for the exercise -->
         <div class="rev-style">
-            <img src="/img/soaf.png" class="responsive center">
+            <img src="/img/Tacocat.png" class="responsive center">
             <div class="rev-style-headingB">
-                Given a list of numbers and a number K, return whether any two numbers from the list add up to K.
+                The Taco Cat coding challenge is based on the more traditional “Reverse a string” exercise but ultimately determines if a word or phrase is a palindrome. The Reverse a string exercise in some form has been used by technology companies such as Amazon, Microsoft, VMware and Norton to assess a candidate’s ability to code an impromptu algorithm. 
+                <hr />
+                <p>Determine if the word or phrase entered by the user is a palindrome. Example: “Tacocat”</p>
+
             <p>
-                <h6>Example: given [10, 15, 3, 7] and K of 17, return true since 10 + 7 is 17.</h6>
+                <h6>Example: the user enters “developer” the output is “repoleved”.</h6>
             </div>
-            <label><span>Enter a Number:</span><input id="sumValue" type="number" name="sum" value="17"></label>
-            <label><span></span><input type="submit" onclick="DisplayAllSums()" value="Sum it Up!"></label>
-            <label><span>Numbers To Search</span>
-                <div id="numList">---</div>
+            <label><span>Enter a Word:</span><input id="palTestBox" class="form-control" type="text" value="TacocaT"></label>
+            <label><span>Input:</span>
+                <div id="palTest">---</div>
             </label>
-            <label><br><br><span>Results</span><br>
-                <p>
-                <p id="results"></p>
+            <label><span>Reversed Input:</span>
+                <div id="palRev">---</div>
+            </label>
+           
+            
+            <p><label><span></span><input type="submit" onclick="TacocaT()"  value="Is it a Palindrome?"></label>
+                
+            
+           
 
         </div>
 
+        
+           
 
-
-
-
-
-
-
+   
 
     <!-- Optional JavaScript -->
-    <script src="/js/soaf.js"></script>
+    <script>
+    
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/tacocat.js"></script>
+
+
+
+
+
   </body>
 </html>

@@ -27,12 +27,6 @@ function TacocaT(){
       else {
         wordElement.value = "Sorry... It is NOT a Palindrome!";
       }
-      return results
+      
     };
 
-
-    
-    //  let arr = ['foo', 'racecar', 'pineapple', 'porcupine', 'tacocat']
-
-    //  let palindromes = arr.filter(word => word.split('').reverse().join('') === word)
-    //      }
